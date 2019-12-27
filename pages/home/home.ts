@@ -195,7 +195,7 @@ export class ModeloConcreto<T> implements IModeloConcreto<T> {
     mascaraColuna: string,
     valor: string
   ): string {
-    // verfica se o tipo da coluna é mascaraData
+    // verfica se o valor é uma data válida.
     // verifica se existe padrão especificado para a coluna
     // verifica se existe padrão genérico para a coluna
     return valor;
