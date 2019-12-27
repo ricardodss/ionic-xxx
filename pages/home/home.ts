@@ -188,7 +188,7 @@ export class ModeloConcreto<T> implements IModeloConcreto<T> {
 
   private verificaReplace(): string {
     return "";
-  }
+  } 
 
   private verificaMascaraData(
     mascaraGeral: string,
